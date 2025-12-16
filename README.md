@@ -30,16 +30,16 @@ Insight Interpretation
 Hypothesis-testing-using-data-analytics/
 │
 ├── 1. Raw data/
-│   └── Contains the original datasets used for analysis
+│   └── Original datasets used for analysis
 │
 ├── 2. Notebook/
-│   └── Jupyter notebooks with data cleaning, EDA, and hypothesis testing
+│   └── Jupyter notebooks with EDA & hypothesis testing
 │
 ├── 3. Charts/
-│   └── Visualizations generated during the analysis
+│   └── Visualizations created during analysis
 │
 ├── 4. Project Report/
-│   └── Final report summarizing methodology, results, and insights
+│   └── Final report with insights & conclusions
 │
 └── README.md
 
