@@ -1,84 +1,62 @@
 # Hypothesis-testing-using-data-analytics
 
-An end-to-end data analytics project focused on analyzing customer behavior using data cleaning, exploratory analysis, and visualization to generate actionable business insights.
+An end-to-end data analytics project focused on applying hypothesis testing techniques to analyze customer behavior using data cleaning, exploratory analysis, statistical testing, and visualization.
 
-🚀 Project Overview
+🎯 Project Objective
 
-This project analyzes customer transaction data to understand patterns in:
+The goal of this project is to:
 
-Payment methods
+Perform hypothesis testing on customer-related data
 
-Fare amounts
+Validate assumptions using statistical methods
 
-Trip distances
+Derive data-driven insights to support business decisions
 
-The objective is to transform raw data into meaningful insights that can support data-driven decision-making.
+🧠 Key Concepts Covered
 
-🔄 Project Workflow
-Data Collection → Data Cleaning & Transformation → Exploratory Data Analysis → Visualization & Insights
-
-Steps Involved:
-
-Data Extraction
-
-Collected raw customer behavior data from source files.
-
-Data Cleaning & Transformation
-
-Handled missing values
-
-Removed outliers
-
-Standardized data formats
+Data Cleaning & Preparation
 
 Exploratory Data Analysis (EDA)
 
-Distribution analysis
+Hypothesis Formulation
 
-Payment method comparison
+Statistical Testing
 
-Statistical analysis (Q–Q plots)
+Data Visualization
 
-Visualization
+Insight Interpretation
 
-Built clear and informative visualizations
+📂 Project Structure
+Hypothesis-testing-using-data-analytics/
+│
+├── 1. Raw data/
+│   └── Contains the original datasets used for analysis
+│
+├── 2. Notebook/
+│   └── Jupyter notebooks with data cleaning, EDA, and hypothesis testing
+│
+├── 3. Charts/
+│   └── Visualizations generated during the analysis
+│
+├── 4. Project Report/
+│   └── Final report summarizing methodology, results, and insights
+│
+└── README.md
 
-Highlighted trends and patterns in customer behavior
+🔄 Workflow
+Raw Data → Data Cleaning → EDA → Hypothesis Testing → Visualization → Insights
 
-📈 Key Analyses
-🔹 Fare Amount Distribution
+📊 Analysis Performed
 
-Fare values show a bimodal distribution
+Descriptive statistics to understand data distribution
 
-Higher fare amounts are more frequently associated with card payments
+Visual analysis using charts and plots
 
-🔹 Trip Distance Distribution
+Formulation of null and alternative hypotheses
 
-Trip distances are right-skewed
+Statistical tests to validate assumptions
 
-Most trips fall within short distances (around 1–1.5 miles)
-
-Longer trips are dominated by card transactions
-
-🔹 Payment Type Breakdown
-
-Card payments are the dominant payment method
-
-Cash payments still represent a significant portion of transactions
-
-🔹 Statistical Insights
-
-Q–Q plot shows a good fit with theoretical quantiles
-
-Deviations at higher values indicate extreme customer behavior
-
-💡 Key Insights
-
-💳 Card payments dominate, especially for higher fares and longer trips
-
-📊 Multiple customer segments suggested by bimodal fare distribution
-
-🚕 Short-distance trips are the most common customer behavior
+Interpretation of results based on significance levels
 
 🛠️ Tools & Technologies
 
@@ -90,32 +68,61 @@ NumPy
 
 Matplotlib / Seaborn
 
-Power BI
+SciPy / Statsmodels (for hypothesis testing)
 
-Interactive dashboards
+Jupyter Notebook
 
-Visual storytelling
+Statistical Analysis Techniques
 
-Statistics
+📈 Key Outcomes
 
-Distribution analysis
+Validated assumptions using statistical evidence
 
-Q–Q plots
+Identified meaningful patterns in customer behavior
 
-📌 Future Improvements
+Converted analytical results into actionable insights
 
-Add predictive models for customer behavior
+🚀 Future Enhancements
 
-Segment customers using clustering techniques
+Add more advanced statistical tests
 
-Automate data preprocessing pipelines
+Perform A/B testing scenarios
 
-Expand dashboard with real-time filters
+Automate hypothesis testing pipelines
 
-📷 Visualizations
+Extend analysis with predictive modeling
 
-(Add charts or Power BI dashboard screenshots here)
+▶️ How to Run the Project
 
-🤝 Contributing
+Clone the repository
 
-Contributions are welcome!
+git clone https://github.com/Sagarbyte/Hypothesis-testing-using-data-analytics.git
+
+
+Navigate to the 2. Notebook folder
+
+Open and run the Jupyter notebooks sequentially
+
+📄 License
+
+This project is licensed under the MIT License.
+
+✅ Why this README works well
+
+Matches your exact folder structure
+
+Sounds professional & resume-ready
+
+Clear hypothesis testing focus
+
+Clean for recruiters & interviewers
+
+If you want, I can:
+
+Shorten it to a 1-screen README
+
+Rewrite it for Data Analyst / Data Scientist resume
+
+Add hypotheses examples section
+
+Optimize it for ATS keywords
